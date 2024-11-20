@@ -36,9 +36,6 @@ function getPlainResponse(action, params) {
     return objHTTP;
 
 }
-//livenandha
-var params= {"firstName":"","lastName":"Jamess","associatedDepartmentIds":["1062072000000006907"],"rolePermissionType":"Admin","aboutInfo":"","mobile":"","phone":"","extn":"","status":"ACTIVE","emailId":"voyix37996@merotx.com"}//No I18N
-var result = getPlainResponse('https://desk.zoho.com/api/v1/agents?orgId=871824321', JSON.stringify(params)); //No I18N 
 //ZOHOCOrp
-//var params= {"firstName":"","lastName":"Nagarajan","associatedDepartmentIds":["4000000099140"],"rolePermissionType":"Admin","aboutInfo":"","mobile":"","phone":"","extn":"","status":"ACTIVE","emailId":"jareh86128@molyg.com"}//No I18N
-//var result = getPlainResponse('https://crmplus.zoho.com/supportapi/zohocorp/api/v1/agents?portalname=zohocorp', JSON.stringify(params)); //No I18N 
+var params= {"firstName":"","lastName":"Nagarajan","associatedDepartmentIds":["4000000099140"],"rolePermissionType":"Admin","aboutInfo":"","mobile":"","phone":"","extn":"","status":"ACTIVE","emailId":"moriarty.james1@outlook.com"}//No I18N
+var result = getPlainResponse('https://crmplus.zoho.com/supportapi/zohocorp/api/v1/agents?portalname=zohocorp', JSON.stringify(params)); //No I18N 
